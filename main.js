@@ -18,9 +18,8 @@ function edad(number) {
     }
     else {
         console.log("Eres un adulto mayor")
-    }
-}
-console.log(edad(26))
+    }}
+edad(26)
 
 
 
@@ -123,9 +122,9 @@ console.log(botton)
 function alerta(){
     alert("Hola!")
 }
-console.log(alerta())
+
 
 //Investiga qué es addEventListener
-document.getElementById("boton").addEventListener("Haz click", alerta)
+document.getElementById("boton").addEventListener("click", alerta)
 
 
